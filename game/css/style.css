@@ -1,9 +1,10 @@
-body {
-  background: url("http://herobryan66.github.io/BG.jpg");
-background-repeat: no-repeat;
-  Background-size: cover;
+#lol {
+  background: url("http://herobryan66.github.io/game/BG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 width: 100%;
 }
+
 h1{ font-family: 'Black Ops One', cursive;
 }
 #ti {
@@ -13,4 +14,34 @@ h1{ font-family: 'Black Ops One', cursive;
   font-size: 100px;
   color: white;
   text-shadow: 0px 0px 19px black;
+}
+.place{
+	margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+button { font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 100px;
+   margin-color: #12B288;
+   font-size: 50px;
+   color: #FFFFFF;
+  background: #12B288;
+  padding: 40px;
+  text-decoration: none;
+  box-shadow: none;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  width: 325px;
+  height: 230px;
+}
+.player {
+	background: url("http://herobryan66.github.io/game/playre.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+width: 100%;
 }
