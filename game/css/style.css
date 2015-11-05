@@ -1,15 +1,16 @@
 #lol {
+  margin: 0 auto;
   background: url("http://herobryan66.github.io/game/BG.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-width: 100%;
+  background-size: 100%;
+  background-width: 10%;
 }
 
 h1{ font-family: 'Black Ops One', cursive;
 }
 #ti {
   text-align: center;
-  margin-top: 8%;
+  margin-top: -800px;
   margin-right: 100px;
   font-size: 100px;
   color: white;
@@ -20,7 +21,7 @@ h1{ font-family: 'Black Ops One', cursive;
 	background-repeat: no-repeat;
     background-size: fill;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 1000px;
     margin-right: 100px;
 }
 button { font-family: 'Montserrat', sans-serif;
@@ -50,14 +51,12 @@ button { font-family: 'Montserrat', sans-serif;
 .player {
 	background: url("http://herobryan66.github.io/game/playre.png");
   background-repeat: no-repeat;
-  background-size: cover;
 width: 10px;
     height: 10px;
 }
 .foe {
 	background: url("http://herobryan66.github.io/game/enemytank.png");
   background-repeat: no-repeat;
-  background-size: cover;
 width: 10px;
     height: 10px;
 }
