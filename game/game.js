@@ -24,18 +24,17 @@ $(document).ready(function(){
  	$(".player").css("top","1000px");
  });
 $("#top2").click(function() {
-	$("#enemyTank").css("top","5px");
+	$("#enemyTank").css("top","-2%");
  });
 	
  $("#left2").click(function() {
-	$("#enemyTank").css("left","5px");
+	$("#enemyTank").css("left","25%");
  });
  
  $("#right2").click(function() {
-	$("#enemyTank").css("left","1000px");
+	$("#enemyTank").css("left","75%");
  });
  $("#bottom2").click(function() {
- 	$("#enemyTank").css("top","1000px");
+ 	$("#enemyTank").css("top","55%");
  });
-
 });
