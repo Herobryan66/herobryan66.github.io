@@ -3,6 +3,10 @@ $(document).ready(function(){
 	$("#playlink").click(function() {
 	  $(".place").hide();
 	  $("#lol").css("background","url('stage.png')");
+	  $(".player").show();
+	  $(".player").css("background","url('playre.png')");
+	  $(".foe").show();
+	  $(".foe").css("background","url('enemytank.png')");
 	});
 });
 

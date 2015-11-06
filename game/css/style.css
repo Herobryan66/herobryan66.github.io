@@ -1,6 +1,7 @@
 #lol {
   margin: 0 auto;
   background: url("http://herobryan66.github.io/game/BG.jpg");
+  background-size: cover !important;
   background-repeat: no-repeat;
   background-size: 100%;
   background-width: 10%;
@@ -50,9 +51,11 @@ button { font-family: 'Montserrat', sans-serif;
 }
 .player {
 	background: url("http://herobryan66.github.io/game/playre.png");
-  background-repeat: no-repeat;
-width: 10px;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	width: 10px;
     height: 10px;
+    display: block;
 }
 .foe {
 	background: url("http://herobryan66.github.io/game/enemytank.png");
