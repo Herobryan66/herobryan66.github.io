@@ -60,7 +60,7 @@ button { font-family: 'Montserrat', sans-serif;
     left:40%;
     transition-property: all;
   	transition-duration: 5s;
-  	transition-timing-function: ease;
+  	transition-timing-function: ease; 	
 }
 #enemyTank {
 	background: url("http://herobryan66.github.io/game/enemytank.png");
@@ -70,11 +70,13 @@ button { font-family: 'Montserrat', sans-serif;
     height: 200px;
     display: none;
     position: absolute;
-    top: 50%;
-    left: 25%;
+    top: 20%;
+    left: 60%;
     transition-property: all;
   	transition-duration: 3s;
   	transition-timing-function: ease;
+  	-webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 #enemySki {
 	background: url("http://herobryan66.github.io/game/enemyskii.png");
@@ -84,9 +86,67 @@ button { font-family: 'Montserrat', sans-serif;
     height: 190px;
     display: none;
     position: absolute;
-    top: 500px;
-    left: 300px;
+    top: 20%;
+    left: 20%;
     transition-property: all;
   	transition-duration: 7s;
   	transition-timing-function: ease;
+  	-webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+#top {
+	position:absolute;
+	width: 50px;
+	height: 50px;
+	bottom: 10%;
+	left: 5%;
+}
+#down {
+position:absolute;
+	width: 50px;
+	height: 50px;
+	bottom: 1%;
+	left: 5%;
+}
+#left {
+	position:absolute;
+	width: 50px;
+	height: 50px;
+	bottom: 10%;
+	left: 10%;
+}
+#right {
+	position:absolute;
+	width: 50px;
+	height: 50px;
+	bottom: 10%;
+	left: 0%;
+}
+#top2 {
+	position:absolute;
+	width: 50px;
+	height: 50px;
+	top: 90%;
+	left: 95%;
+}
+#down2 {
+position:absolute;
+	width: 50px;
+	height: 50px;
+	top: 99%;
+	left: 95%;
+}
+#left2 {
+	position:absolute;
+	width: 50px;
+	height: 50px;
+	top: 90%;
+	left: 90%;
+}
+#right2 {
+	position:absolute;
+	width: 50px;
+	height: 50px;
+	top: 90%;
+	right: 0%;
 }

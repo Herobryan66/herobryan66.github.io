@@ -9,12 +9,33 @@ $(document).ready(function(){
 	$("#enemySki").css("display","inline-block");
  });
 
- $("#up").click(function() {
-	$(".player").css("top","2px");
+ $("#top").click(function() {
+	$(".player").css("top","5px");
  });
-
+	
  $("#left").click(function() {
-	$(".player").css("left","900px");
+	$(".player").css("left","5px");
+ });
+ 
+ $("#right").click(function() {
+	$(".player").css("left","1000px");
+ });
+ $("#bottom").click(function() {
+ 	$(".player").css("top","1000px");
+ });
+$("#top2").click(function() {
+	$("#enemyTank").css("top","5px");
+ });
+	
+ $("#left2").click(function() {
+	$("#enemyTank").css("left","5px");
+ });
+ 
+ $("#right2").click(function() {
+	$("#enemyTank").css("left","1000px");
+ });
+ $("#bottom2").click(function() {
+ 	$("#enemyTank").css("top","1000px");
  });
 
 });
