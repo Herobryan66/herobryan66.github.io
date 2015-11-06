@@ -1,7 +1,6 @@
 #lol {
   margin: 0 auto;
   background: url("http://herobryan66.github.io/game/BG.jpg");
-  background-size: cover !important;
   background-repeat: no-repeat;
   background-size: 100%;
   background-width: 10%;
@@ -49,17 +48,33 @@ button { font-family: 'Montserrat', sans-serif;
   background-size: cover;
   width: 100%;
 }
+
+#enemyTank {
+	background: url("http://herobryan66.github.io/game/enemytank.png");
+  	background-repeat: no-repeat;
+	background-size: cover;
+    width: 220px;
+    height: 200px;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transition-property: all;
+  	transition-duration: 3s;
+  	transition-timing-function: ease;
+}
+
 .player {
 	background: url("http://herobryan66.github.io/game/playre.png");
-  	background-repeat: no-repeat;
-  	background-size: cover;
-	width: 10px;
-    height: 10px;
-    display: block;
-}
-.foe {
-	background: url("http://herobryan66.github.io/game/enemytank.png");
-  background-repeat: no-repeat;
-width: 10px;
-    height: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 220px;
+    height: 200px;
+    display: none;
+    position: absolute;
+    top: 75%;
+    left:40%;
+    transition-property: all;
+  	transition-duration: 5s;
+  	transition-timing-function: ease;
 }
