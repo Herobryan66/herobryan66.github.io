@@ -99,3 +99,34 @@ if (isMoving)
 		if (currX >= SPRITE_WIDTH)
 			currX = 0;
 	}
+
+
+
+	function preloading()
+{	
+	if (charImage.ready)
+	{
+		clearInterval(preloader);
+		
+		//Initialise game
+		facing = "E"; //N = North, E = East, S = South, W = West
+		isMoving = false;
+		
+		gameloop = setInterval(update, TIME_PER_FRAME);			
+		document.addEventListener("keydown",keyDownHandler, false);	
+		document.addEventListener("keyup",keyUpHandler, false);	
+	}
+
+ function keyDownHandler(event){
+
+if (keypressed = "W") "#up"=true
+
+else if (keypressed = "A") "#left"=true
+
+else if (keypressed = "D") "#right"=true
+
+else if (keypressed = "S") "#bottom"=true
+});
+
+}
+
