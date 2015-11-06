@@ -48,7 +48,20 @@ button { font-family: 'Montserrat', sans-serif;
   background-size: cover;
   width: 100%;
 }
-
+.player {
+	background: url("http://herobryan66.github.io/game/playre.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 220px;
+    height: 200px;
+    display: none;
+    position: absolute;
+    top: 75%;
+    left:40%;
+    transition-property: all;
+  	transition-duration: 5s;
+  	transition-timing-function: ease;
+}
 #enemyTank {
 	background: url("http://herobryan66.github.io/game/enemytank.png");
   	background-repeat: no-repeat;
@@ -63,18 +76,17 @@ button { font-family: 'Montserrat', sans-serif;
   	transition-duration: 3s;
   	transition-timing-function: ease;
 }
-
-.player {
-	background: url("http://herobryan66.github.io/game/playre.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 220px;
-    height: 200px;
+#enemySki {
+	background: url("http://herobryan66.github.io/game/enemyskii.png");
+  	background-repeat: no-repeat;
+	background-size: cover;
+    width: 210px;
+    height: 190px;
     display: none;
     position: absolute;
-    top: 75%;
-    left:40%;
+    top: 500px;
+    left: 300px;
     transition-property: all;
-  	transition-duration: 5s;
+  	transition-duration: 7s;
   	transition-timing-function: ease;
 }

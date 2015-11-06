@@ -6,6 +6,7 @@ $(document).ready(function(){
 	$("#lol").css("background-size","cover");
 	$(".player").css("display","inline-block");
 	$("#enemyTank").css("display","inline-block");
+	$("#enemySki").css("display","inline-block");
  });
 
  $("#up").click(function() {
@@ -17,4 +18,3 @@ $(document).ready(function(){
  });
 
 });
-
